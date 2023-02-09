@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>HTML Headings</title>
+ </head>
+ <body>
+    HTML headings are titles or subtitles that we want to display on a webpage.<br>
+    HTML headings highlight these important domains and provide a proper structure to the HTML document.<br>
+    There are six different heading tags in HTML h1 to h6. The heading defined within h1 is the most important i.e. larger font-size and font-weight whereas h6 is the least important i.e. least font-size.<br>
+    <p><b> Examples </b> <br>
+    <h1>heading1 HTML</h1>
+    <h2>heading2 HTML</h2>
+    <h3>heading3 HTML</h3>
+    <h4>heading4 HTML</h4>
+    <h5>heading5 HTML</h5>
+    <h6>heading6 HTML</h6>
+ </body>
+</html>
