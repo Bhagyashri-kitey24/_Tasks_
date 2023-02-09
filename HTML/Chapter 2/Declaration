@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Doctype</title>
+</head>
+<body>
+    <h2>Doctype </h2>
+    <p> !DOCTYPE declaration is NOT case sensitive.</p> <br> 
+        we can declare doctype as <br>
+        !DOCTYPE html<br>
+        !DocType html<br>
+        !Doctype html<br>
+        !doctype html<br>
+
+    <p><b> !DOCTYPE html </b> <br>
+    <br>The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect. </p>
+</body>
+</html>
