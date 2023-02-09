@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>HTML Headings</title>
+ </head>
+ <body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint est temporibus repellendus odit necessitatibus a enim totam, voluptatum ipsum obcaecati error ipsa tempora itaque doloribus quas repudiandae in.<strong>This is the strong tag use for bold.</strong> Aspernatur perspiciatis nam odit.<em> em this is emphasized, by default it convert text into italic.</em> <mark> mark tag is use for Highlighting.
+    </mark>natus iure esse.<i> I tag is use for italic fon.t</i><u> u tag is use for Underling Text</u> culpa vero eligendi repellendus hic.</p> <br>
+    <br>
+    <p>This is Second Paragraph</p><br>
+    <pre>
+        This is the use of pre tag
+      
+        The text inside a pre element is displayed in a fixed-width font (usually Courier)
+      
+        It preserves both spaces and line breaks.
+    
+      </pre>
+
+    <p>Abbreviation</p>
+    To mark some expression as an abbreviation, use <abbr> tag:
+        <p>I like to write <abbr title="Hypertext Markup Language">HTML</abbr>!</p>
+        
+ </body>
+</html>

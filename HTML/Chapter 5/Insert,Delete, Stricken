@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>HTML Headings</title>
+ </head>
+ <body>
+    <p>This is first paragraph</p>
+    <p>This is second paragraph</p> 
+    <p>This is <del>fourth</del> <ins>third</ins></p>
+ </body>
+</html>

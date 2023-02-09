@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>HTML Headings</title>
+ </head>
+ <body>
+    <p>This is First paragraph</p>
+    <p>This is Second paragraph</p> 
+    <p>This is <del>Fourth</del> <ins>Third paragraph</ins></p>
+
+    <p>This is example of subscripted text H<sub>2</sub>O </p>
+    <p>This is example of superscripte text 2<sup>2</sup></p>
+ </body>
+</html>
