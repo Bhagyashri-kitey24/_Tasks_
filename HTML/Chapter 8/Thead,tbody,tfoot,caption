@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+  <html>
+<body>
+
+<table border=1 cellspacing="0">
+<caption>Time table for 2023 CSE</caption>
+<thead style="font-weight: 900;">    
+<tr>
+<th colspan="7"><caption style="background-color: lightblue;">Time table</caption></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td rowspan="9" style="background-color: lightblue;">2023</td>
+<td><b>Subjects--></b></td>
+<td>SE</td>
+<td>BDA</td>
+<th rowspan="7" style="background-color: lightblue;">recess</th>
+<td>CC</td>
+<td>BCT</td>
+</tr>
+
+<tr>
+<td>Mon</td>
+<td>9am to 10am</td>
+<td>10:10am to 11:10am</td>
+<td>11:20am to 12:20pm</td>
+<td>12:30pm to 1:30</td>
+</tr>
+
+
+<tr>
+<td>Tue</td>
+<td>9am to 10am</td>
+<td>10:10am to 11:10am</td>
+<td>11:20am to 12:20pm</td>
+<td>12:30pm to 1:30</td>
+</tr>
+
+
+<tr>
+<td>Wed</td>
+<td>9am to 10am</td>
+<td>10:10am to 11:10am</td>
+<td>11:20am to 12:20pm</td>
+<td>12:30pm to 1:30</td>
+</tr>
+
+
+<tr>
+<td>Thurs</td>
+<td>9am to 10am</td>
+<td>10:10am to 11:10am</td>
+<td>11:20am to 12:20pm</td>
+<td>12:30pm to 1:30</td>
+</tr>
+
+<tr>
+<td>Fri </td>
+<td>9am to 10am</td>
+<td>10:10am to 11:10am</td>
+<td>11:20am to 12:20pm</td>
+<td>12:30pm to 1:30</td>
+</tr>
+
+<tr>
+<td>Sat</td>
+<td>9am to 10am</td>
+<td>10:10am to 11:10am</td>
+<td>11:20am to 12:20pm</td>
+<td>12:30pm to 1:30</td>
+</tr>
+
+<tr>
+<td>sun</td>
+<td colspan=7 style="background-color: lightblue;"><center> Holiday </td>
+</tr>
+
+<tfoot> 
+<td rowspan="8" style="background-color: lightblue;">footer part</td>
+
+</tfoot>
+
+</tbody>
+
+</table>
+
+</body>
+</html>
+</body>
+</html>
