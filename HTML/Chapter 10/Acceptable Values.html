@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ids and classes in HTML</title>
+    <style>
+    .First{
+        background-color: lightblue;
+        padding: 20px;
+        margin-bottom:10px;
+    }
+     
+    .Second{
+        background-color: lightGREEN;
+        color:blue;
+        padding: 20px;
+        margin-bottom:10px;
+
+    } 
+
+    .Third{
+        padding: 20px;
+        margin-bottom:10px;
+
+    } 
+    
+    #I2
+    {
+        background-color: indigo;
+        color:white;
+        padding: 20px;
+        margin-bottom:10px;
+
+    }
+
+    </style>
+</head>
+<body>
+    <div class="First">
+    <h3>Class 1st</h3>
+    <p>This is the paragraph of 1st class
+    </p>   
+    </div>
+
+   <div class="Second">
+    <h3>Class 2nd</h3>
+    <p>This is the paragraph of 2st class
+    </p>   
+    </div>
+    
+    <div class="Third Second">
+    <h3>Class 3rd</h3>
+    <p>This is the paragraph of 3rd class
+    </p>   
+    </div>
+
+    <div class="First Second Third" >
+        <h3>Combine</h3>
+        <p> fornt for Combine class</p>
+    </div>
+
+    <div id=I1 class="Second">
+        <p>This is id 1</p>
+    </div>
+
+    <div id=I2 >
+        <p>This is id 2</p>
+    </div>
+
+     <!--for an ID
+     The only restrictions on the value of an id are:
+        1. it must be unique in the document
+        2. it must not contain any space characters
+        3. it must contain at least one character
+       
+        So these are valid:
+        <div id="container"> ... </div>
+        GoalKicker.com – HTML5 Notes for Professionals 28
+        <div id="999"> ... </div>
+        <div id="#%LV-||"> ... </div>
+        <div id="____V"> ... </div>
+        <div id="⌘⌥"> ... </div>
+        <div id="♥"> ... </div>
+        <div id="{}"> ... </div>
+        <div id="©"> ... </div>
+        <div id="♤₩¤☆€~¥"> ... </div>
+
+        This is invalid:
+        <div id=" "> ... </div>
+
+        This is also invalid, when included in the same document:
+        <div id="results"> ... </div>
+        <div id="results"> ... </div
+
+         id value must begin with a letter, which can then be followed only by:
+            letters (A-Z/a-z)
+            digits (0-9)
+            hyphens ("-")
+            underscores ("_")
+            colons (":")
+            periods (".")
+            Referring to the first group of examples in the HTML5 section above, only one is valid:
+            <div id="container"> ... </div
+
+       Referring to the first group of examples in the HTML5 section above, only one is valid:
+        <div id="container"> ... </div
+        These are also valid:
+        <div id="sampletext"> ... </div>
+        <div id="sample-text"> ... </div>
+        <div id="sample_text"> ... </div>
+        <div id="sample:text"> ... </div>
+        <div id="sample.text"> ... </div>
+
+
+        For a class
+        Referring to the examples above, although this is not valid in the same document:
+            <div id="results"> ... </div>
+            <div id="results"> ... </div>
+            This is perfectly okay:
+            <div class="results"> ... </div>
+            <div class="results"> ... </div>
+      -->
+
+</body>
+</html>
