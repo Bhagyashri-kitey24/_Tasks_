@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+<!-- The text should look correct even if you replace the image with its alt attribute. For example:
+Incorrect 
+<img src="anonymous.png" alt="Anonymous user avatar"/> An anonymous user wrote:
+<blockquote>Lorem ipsum dolor sed.</blockquote>
+<a href="https://google.com/"><img src="edit.png" alt="Edit icon"/></a> /
+<a href="https://google.com/"><img src="delete.png" alt="Delete icon"/></a> -->
+
+<!-- Correct -->
+<img src="anonymous.png" alt=""/> An anonymous user wrote:
+<blockquote>Lorem ipsum dolor sed.</blockquote>
+<a href="https://google.com/"><img src="edit.png" alt="Edit"/></a> /
+<a href="https://google.com/"><img src="delete.png" alt="Delete"/></a>
+
+</body>
+</html>
