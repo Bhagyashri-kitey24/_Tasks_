@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ids and classes in HTML</title>
+    
+</head>
+<body>
+<img src="speaker.png" value="test" />
+<div data-submitted="yes" class="user_profile">
+ … some content …
+</div>
+<br><br>
+<h2>Use the data-* attribute to embed custom data:</h2>
+<ul>
+  <li data-animal-type="bird">Owl</li>
+  <li data-animal-type="fish">Salmon</li>
+  <li data-animal-type="spider">Tarantula</li>
+</ul>
+    
+</body>
+</html>
