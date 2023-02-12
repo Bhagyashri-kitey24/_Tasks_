@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ids and classes in HTML</title>
+    <style>
+
+    #I2
+    {
+        background-color: indigo;
+        color:white;
+        padding: 20px;
+        margin-bottom:10px;
+
+    }
+
+    #I1
+    {
+        background-color: lightgreen;
+        color:Red;
+        padding: 20px;
+        margin-bottom:10px;
+
+    }
+
+   #I2
+    {
+        background-color: skyblue;
+        color:black;
+        padding: 20px;
+        margin-bottom:10px;
+        
+    #aDiv {
+        color: red;
+    }
+    }
+
+</style>
+
+</head>
+<body>
+
+    <div id=I2 >
+        <p>This is id 2</p>
+    </div>
+
+    <div id=I1 >
+        <p>This is id 1</p>
+    </div>
+
+
+    <div id=I2 >
+        <p>This is id 2</p>
+    </div>
+
+    <div id="aDiv">aashu</div>
+    <div id="aDiv">bini</div>
+
+<script>
+    // JavaScript fails to handle both elements
+    var html = document.getElementById("aDiv").innerHTML;
+</script>
+</body>
+</html>
