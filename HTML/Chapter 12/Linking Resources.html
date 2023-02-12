@@ -9,7 +9,25 @@
 </head>
 <body>
 
-    <script src="demo.js"></script>
+<!-- Synchronous:Loading your scripts last
+allows your site's visuals to show up more quickly and discourages your JavaScript from trying to interact with
+elements that haven't loaded yet
+-->
+    <script src="javascript.js"></script> 
+
+<!--Asynchronous: when the Javascript code being loaded is not necessary for page initialization, it can be loaded
+asynchronously, speeding up the page load.
+ -->
+    <script src="javascript.js" async></script>
+
+<!-- Deferred: Deferred scripts are guaranteed to be loaded in the order of declaration, same way as synchronous
+scripts
+-->
+    <script src="javascript.js" defer></script>
+
+<!--The <noscript> element defines content to be displayed if the user has scripts disabled or if the browser does not
+support using scripts. -->
+    <noscript>JavaScript disabled</noscript>
    
 </body>
 </html>
