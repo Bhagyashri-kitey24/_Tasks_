@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>  
+</head>
+<body>
+<form>
+<div>
+<label>Name</label>
+<input type="Text" name="U_name" placeholder="Enter your name" size="50">
+</div>
+<br>
+
+<div>
+<label>Email</label>
+<input type="Text" name="Email" placeholder="Enter your Email" size="50">
+</div>
+<br>
+
+
+<div>
+<label>DOB</label>
+<input type="date" name="dob" placeholder="Enter your DOB" >
+</div>
+<br>
+
+<div>
+<label>Number</label>
+<input type="hidden" name="inputName" value="inputValue"> <!-- hidden-->
+<input type="tel"  placeholder="Enter your No."><!-- tel-->
+</div>
+<br>
+
+<div>
+<label>Password</label>
+<input type="Password" name="Password" placeholder="Enter your Password" >
+</div>
+<br>
+
+<div>
+<label>File</label>
+<input type="file" name="doc" placeholder="Attach your file" >
+</div>
+<br>
+
+<div>
+<label>Subject</label><br>
+<input type="checkbox" name="checkbox" placeholder="checkbox"require>Java
+<input type="checkbox" name="checkbox" placeholder="checkbox"require>Python
+<input type="checkbox" name="checkbox" placeholder="checkbox"require>Advanced Java
+
+</div>
+<br>
+
+<div>
+<label>Adress</label><br>
+<textarea name="Adress" rows="5" cols="50" placeholder="Enter your adress" ></textarea>
+<br>
+
+<div>
+<label>Select Gender</label><br>
+<input type="radio" name="gender" value="Male">Male<br>
+<input type="radio" name="gender" value="Female">Female
+</div>
+<br>
+
+<div>
+<label>Select Roll</label>
+<select name="Role" require>
+    <option value="T">Teacher</option>
+    <option value="S">student</option>
+    <option value="S">librarian</option>
+
+</select>
+</div>
+<br>
+
+<div>
+    <fieldset>
+ <legend>Year:</legend>
+ <p>
+ <input type="radio" name="color" id="red" value="#F00">
+ <label for="red">1st</label>
+ </p>
+ <p>
+ <input type="radio" name="color" id="green" value="#0F0">
+ <label for="green">2nd</label>
+ </p>
+ <p> 
+ <input type="radio" name="color" id="blue" value="#00F">
+ <label for="blue">3rd</label>
+ </p>
+ <p> 
+ <input type="radio" name="color" id="blue" value="#00F">
+ <label for="blue">4th</label>
+ </p>
+</fieldset>
+</div>
+
+<div>
+<label>Any suggestion</label><br>
+<input minlength="3" maxlength="100">Subject Feedback: <input type="range" size="2" name="feedback" min="1" max="5" /><br>
+<br>
+<br>
+
+<div>
+Marks: <input type="number" size="6" name="marks" min="0" max="100" />
+</div>
+<br>
+
+<div>
+    <label>Any suggestion</label><br>
+    <input pattern="\d*" title="Numbers only, please.">
+</div>
+<br>
+
+<div>
+    <label>ID Card</label><br>
+    <input type="file" accept="image/*" title="Only images are allowed">
+</div>
+<br>
+
+<div>
+    <label>Choose</label><br>
+    <input type="color" name="favcolor" value="#ff0000">
+</div>
+
+<div>
+<form action="upload_file.php" method="post" enctype="multipart/form-data">
+ Select file to upload: 
+ <input type="file" name="fileSubmission" id="fileSubmission">
+ <input type="submit" value="Upload your file" name="submit">
+</form>
+</div>
+<br><br>
+
+<div>
+    <input type="image" src="Picture.jpg" alt="image_name" height="500px" width="500px"/>
+
+</div>
+
+<div>
+<button type="button" name="Submit" onclick="alert('Submitted')">Submit</button>
+<button type="button" onclick="alert('hello world!')">Click Me</button>
+<br>
+<input type="reset" name="reset" value="Reset">
+</div>
+
+
+</form>
+</body>
+</html>
