@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>  
+</head>
+<body>
+<p>This is HTML form</p>
+<form>
+<form action="action.php"><!--The action attribute defines the action to be performed when the form is submitted-->
+<br>
+<form action="action.php" method="get"><br><!--The GET method is mostly used to get data, for example to receive a post by its ID or name, or to submit a search
+query. The GET method will append the form data to the URL specified in the action attribute.-->
+<form action="action.php" method="post"><!--The POST method is used when submitting data to a script. The POST method does not append the form data to
+the action URL but sends using the request body-->
+Enter text:<input type="text" name="lastname" value="Mouse">
+</form>
+<br>
+<!--more attribute-->
+<form action="action.php" method="post" target="_blank" accept-charset="UTF-8"
+enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+
+<form target="_blank"><!--The target attribute specifies a name or a keyword that indicates where to display the response that is received
+after submitting the form.
+-->
+
+<P>Uploading Files</p>
+<!-- form elements -->
+<form method="post" enctype="multipart/form-data" action="upload.php">
+ <input type="file" name="pic" />
+ <input type="submit" value="Upload" />
+</form>
+
+<p>Grouping a few input fields</p>
+<form>
+ <fieldset>
+ <legend>1st field set:</legend>
+ Field one:<br>
+ <input type="text"><br>
+GoalKicker.com – HTML5 Notes for Professionals 56
+ Field two:<br>
+ <input type="text"><br>
+ </fieldset><br>
+ <fieldset>
+ <legend>2nd field set:</legend>
+ Field three:<br>
+ <input type="text"><br>
+ Field four:<br>
+ <input type="text"><br>
+ </fieldset><br>
+ <input type="submit" value="Submit">
+</form>
+
+</form>
+</body>
+</html>
