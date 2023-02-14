@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Home page</title>
+</head>
+<body>
+<label>
+    <input type="checkbox" name="coding">
+    I like Coding!
+    </label>
+
+<input id="Testing" type="checkbox" name="Testing">
+<label for="Testing" >I like Testing!</label><!--Using the for attribute you don't have to place the control element as descendant of label - but the for value must
+match it's ID--><br>
+<hr><br><br>
+<form id="my-form" action="/login" method="POST">
+<label for="Username" form="my-form">Username:</label>
+ <input id="Username" type="text" name="username" /><br><br>
+ <label for="pass">Password:</label>
+ <input id="pass" type="password" name="pass" /><br><br>
+ <input type="submit" name="submit" />
+</form>
+
+
+</body>
+</html>
