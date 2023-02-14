@@ -9,16 +9,13 @@
  <a href="https://google.com">Google</a>
  <a href="https://www.yahoo.com">Yahoo!</a>
  <a href="https://www.bing.com">Bing</a>
-</nav><br>
+</nav>
  
  <!-- The footer alone is sufficient -->
 <footer>
  <a href="#">Footer</a>
 </footer>
 <br>
-<footer>
- <p>All rights reserved</p>
-</footer>
 <br>
 
 
