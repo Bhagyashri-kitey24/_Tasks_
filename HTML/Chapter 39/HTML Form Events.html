@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html manifest="index.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script>
+      function handleOnFocus(x)
+      {
+        x.style.color="blue";
+        x.style.backgroundColor="red";
+
+      }
+      function handleOnBlur(x)
+      {
+        x.style.color="red";
+        x.style.backgroundColor="blue";
+
+      }
+    </script>
+</head>
+
+<body>
+<h3>The color of the text field will change when you click the text box and when you ckick outside the text box</h3>
+<input type="text" onfocus="handleOnFocus(this) " onblur="handleOnBlur(this)" />
+   
+</html>
