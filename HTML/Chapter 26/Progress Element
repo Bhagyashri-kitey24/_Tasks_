@@ -4,7 +4,7 @@
   <title>Home page</title>
 </head>
 <body>
-<h3>Your File is in Progress</h3>
+<h3>Your File is in Progress..</h3>
 Downloading:<progress value="30" max="100">
 </progress>
 
