@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Home page</title>
+</head>
+<body>
+<h2>Basic Navigation Bar</h2>
+<ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About</a></li>
+ <li><a href="#">Contact</a></li>
+</ul>
+</ul>
+
+<br>
+<h2>HTML5 Navigation Bar</h2>
+<nav>
+ <a href="#">Home</a>|
+ <a href="#">About</a>|
+ <a href="#">Contact</a>|
+</nav>
+
+</body>
+</html>
