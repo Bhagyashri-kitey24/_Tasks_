@@ -3,21 +3,12 @@
 <head>
   <title>Home page</title>
 </head>
-<body><br>
-
-<nav>
- <a href="https://google.com">Google</a>
- <a href="https://www.yahoo.com">Yahoo!</a>
- <a href="https://www.bing.com">Bing</a>
-</nav>
- 
- <!-- The footer alone is sufficient -->
-<footer>
- <a href="#">Footer</a>
-</footer>
-<br>
-<br>
-
-
+<body>
+<main><!--main tag specifies the main content of a document-->
+<section>
+    <h1>This is heading</h1>
+    This is section
+</section><br>
+<p>This is paragraph</p>
 </body>
 </html>
