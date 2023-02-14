@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Home page</title>
+</head>
+<body>
+<h3>Exaple of Output Element Using For and Form Attributest</h3>
+<p>Enterd value will be calcutaled by adding two vlues</p>
+<form id="form1" name="form1" oninput="out1.value = parseInt(in1.value, 10) + parseInt(in2.value,
+10)">
+ <fieldset>
+ <legend>Output Example</legend>
+ <input type="number" id="in1" name="in1" value="0">
+ <br/>
+ +
+ <input type="number" id="in2" name="in2" value="0">
+ </fieldset>
+</form>
+<!--[for] attribute enables out1 to display calculations for in1 and in2.-->
+<!--[form] attribute designates form1 as the form owner of out1 even if it isn't a descendant.-->
+ <label>Calculated value=</label>
+<output name="out1" for="in1 in2" form="form1">0</output>
+
+</body>
+</html>
