@@ -11,8 +11,11 @@ p {
 
 ul{
     list-style: square;
+    list-style-position: inside;
 }
 
 ol{
-    list-style: upper-roman;
+    list-style: lower-roman;
+    list-style-position: inside;
+    list-style-image: url('icon.png');
 }
