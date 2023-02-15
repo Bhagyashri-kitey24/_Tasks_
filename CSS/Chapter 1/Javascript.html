@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8" />
+ <title>Home Page </title>
+ <style>
+.color{
+    background-color: aqua;
+    color: darkblue;
+}
+
+.dim{
+    border: 1px solid red;
+    padding: 100px;
+}
+
+ </style>
+</head>
+ <body>
+   <div id="box" class="color dim">
+   <p>This is a paragraph</p>
+
+   </div>
+
+    <script>
+        let box=document.getElementById("box");
+        //console.log(box.className)
+        //box.className +=" dim"
+        //console.log(box.classList);
+        //box.classList.add("dim");
+        //box.classList.remove("dim");
+        //box.classList.replace("dim");
+        //box.classList.replace("color","dim");
+        //box.classlist.toggle("dim");
+        let result=box.classList.contains("color","dim");
+        console.log(result);
+        /*for( let css of the box.classList){
+            console.log(css);
+        }
+        */
+    </script>
+
+ </body>
+</html>
