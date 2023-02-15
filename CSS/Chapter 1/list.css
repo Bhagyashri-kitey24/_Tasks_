@@ -1,0 +1,18 @@
+@import url('color.css');
+
+h1 {
+ color: green;
+ text-decoration: underline;
+}
+p {
+ font-size: 25px;
+ font-family: 'Trebuchet MS', sans-serif;
+}
+
+ul{
+    list-style: square;
+}
+
+ol{
+    list-style: lower-roman;
+}
