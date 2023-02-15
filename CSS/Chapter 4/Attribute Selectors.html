@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Selectors</title>
+    <style>
+        div[data-color] {
+            color: red;
+           } /*[attribute]*/
+
+        div[data-color="red"] {
+            color: red;
+           }/*[attribute="value"]*/
+             
+        div[class*="foo"] {
+            color: red;
+           } 
+        div[class~="color-red"] {
+            color: red;
+           }
+
+    </style>
+</head>
+<body>
+
+    <!--[attribute]-->
+<div data-color="red">This will be red</div>
+<div data-color="green">This will be red</div>
+<div data-background="red">This will NOT be red</div><br>
+    
+<!--[attribute="value"]-->
+<div data-color="red">This will be red</div>
+<div data-color="green">This will NOT be red</div>
+<div data-color="blue">This will NOT be red</div><br>
+
+<!--[attribute*="value"]-->
+<div class="foo-123">This will be red</div>
+<div class="foo123">This will be red</div>
+<div class="bar123foo">This will be red</div>
+<div class="barfooo123">This will be red</div>
+<div class="barfo0">This will NOT be red</div>
+   
+
+<div class="color-red foo-bar the-div">This will be red</div>
+<div class="color-blue foo-bar the-div">This will NOT be red</div>
+   
+</body>
+</html>
