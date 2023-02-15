@@ -18,11 +18,66 @@
         x.style.backgroundColor="blue";
 
       }
+
+      function handleOnChangeEvent(x)
+      {
+        document.bgColor=x;
+      }
+
+    function handleOnClickEvent(x)
+      {
+        alert=("Hello");
+      }
+
+    function handleOnSubmit(x)
+      {
+        alert("Submitted");
+      }
+
+    function handleOnReset(x)
+      {
+        alert("Reset the value");
+      }
+
+    function handleOnSearch(x)
+      {
+        var x= document.getElementById(mysearch);
+      }
+    document.getElementById("demo").innerHTML="you are searching for:"+ x.value;
     </script>
 </head>
 
 <body>
+<form onsubmit="handleOnSubmit()" onreset="handleOnReset()">
 <h3>The color of the text field will change when you click the text box and when you ckick outside the text box</h3>
-<input type="text" onfocus="handleOnFocus(this) " onblur="handleOnBlur(this)" />
-   
+Enter Name:<input type="text" onfocus="handleOnFocus(this) " onblur="handleOnBlur(this)" /> <!-- onblur=Fires the moment that the element loses focus and onfocus=Fires the moment when the element gets focus-->
+<br>
+<!--onchange Fires the moment when the value of the element is changed-->
+ <label>Select a colour</label>
+ <select onchange="handleOnChangeEvent(this.value)">
+  <option value="">Select a color</option>
+  <option value="blue">blue</option>
+  <option value="red">red</option>
+  <option value="green">green</option>
+ </select>
+
+<!--onclick Fires the moment when the value of the element is changed-->
+ <label>Select Your Interest</label>
+ <select onclick="handleonClickEvent(this.value)">
+  <option value="">Interest</option>
+  <option value="Dance">Dance</option>
+  <option value="Song">Song</option>
+  <option value="Commedy">Commedy</option>
+ </select><br>
+
+<p>write something to search</p>
+<input type="search" id="mysearch" onsearch="handleOnSearch">
+<p id="demo"></p>
+
+<input type="reset"/><!--Fires when the Reset button in a form is clicked-->
+<input type="submit"/><!--onsubmit Fires when a form is submitted-->
+
+
+</form>
+</body>
 </html>
