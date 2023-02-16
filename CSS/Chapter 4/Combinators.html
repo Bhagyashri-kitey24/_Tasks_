@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Selectors</title>
+        <style>
+        div p{
+        color:red;
+        }
+        p ~ p {
+            color: blue;
+           }           
+        </style>
+</head>
+<body>
+<div>
+ <p>My text is red</p>
+ <section>
+ <p>My text is red</p>
+ </section>
+</div>
+<p>My text is not red</p>
+<br>
+
+<p>My text is not blue</p>
+<p>My text is blue</p>
+<hr>
+<h1>And now a title</h1>
+<p>My text is blue</p>
+</body>
+</html>
