@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Selectors</title>
+    <style>
+        .myDiv {
+        padding: 25px 50px 75px 100px; /* top right bottom left; */
+        }
+        .h1{
+            padding-top: 5px;
+        }
+       </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <div class="myDiv">
+        <p>1st Paragraph </p>
+        <p>2nd Paragraph</p>
+    </div>
+       
+</body>
+</html>
