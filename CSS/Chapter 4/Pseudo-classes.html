@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Selectors</title>
+              <style>
+                .important {
+                    color: orange;
+                   }
+                   .warning {
+                    color: blue;
+                   }
+                   .warning.important {
+                    color: red;
+                   }
+
+                   p:last-of-type {
+                    background: #C5CAE9;
+                   }
+                   h1:last-of-type {
+                    background: #CDDC39;
+                   }
+              </style>
+</head>
+<body>
+    <div class="warning">
+        <p>This would be some warning copy.</p>
+       </div>
+       <div class="important warning">
+        <p class="important">This is some really important warning copy.</p>
+       </div>
+       <br><hr>
+       <div class="container">
+        <p>First paragraph</p>
+        <p>Second paragraph</p>
+        <p>Last paragraph</p>
+        <h1>Heading 1</h1>
+        <h2>First heading 2</h2>
+        <h2>Last heading 2</h2>
+       </div>
+</body>
+</html>
