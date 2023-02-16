@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing
+    </title>
+    <style>
+        .div1 {
+  width: 300px;
+  height: 100px;
+  border: 20px solid blue;
+  background-color: rgb(174, 120, 51);
+  background-origin: content-box;
+        }
+
+
+.div2 {
+  width: 300px;
+  height: 100px;  
+  padding: 50px;
+  border: 10px solid #df2c08;
+  box-sizing: border-box;
+  background-color: blue;
+  box-shadow:2px, palevioletred;
+
+}
+.div3 {
+    width: 300px;
+    height: 100px;  
+    padding: 50px;
+    border: 10px solid rgb(84, 225, 244);
+    box-sizing: border-box;
+    background-color: blue;
+    box-shadow:2px, rgb(222, 54, 28);
+   background-origin: border-box;
+  }
+    </style>
+</head>
+<body>
+    <h2>box-sizing<h2>
+    </h2>
+    <div class="div1"><p>This is 1st paragraph</p></div>
+    <br>
+    <div class="div2">This is 2nd paragraph</div>
+    <br>
+    <div class="div3">This is 2nd paragraph</div>
+</body>
+</html>
