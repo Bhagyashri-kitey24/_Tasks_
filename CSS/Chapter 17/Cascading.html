@@ -1,0 +1,37 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>  
+Home Page
+</title>  
+<style>    
+    /*Example 1 - Specificity rules*/
+    .mystyle { color: blue; } /* specificity: 0, 0, 1, 0 */
+    div { color: red; } /* specificity: 0, 0, 0, 1 */
+
+    /*Example 2 - Cascade rules with identical selectors*/
+    class {
+        background: #FFF;
+       }
+
+    /*Example 3 - Cascade rules after Specificity rules*/
+    body > .mystyle { background-color: rgb(253, 96, 224); } /* specificity: 0, 0, 1, 1 */
+.otherstyle > div { background-color: rgb(117, 234, 135); } /* specificity: 0, 0, 1, 1 */
+</style>  
+</head>  
+    <body>
+        <div class="mystyle">Hello World</div>
+
+        <style>
+            .class {
+             background: #000;
+            }
+        </style>
+        <div class="class">Hello World</div>
+        <body class="otherstyle">
+            <div class="mystyle">Hello World</div>
+           </body>
+       </body>   
+</html>  
+
+    
