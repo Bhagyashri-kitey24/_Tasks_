@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(234, 85, 27);
+    text-decoration: underline;
+   }
+   
+   p {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: aquamarine;
+   }
