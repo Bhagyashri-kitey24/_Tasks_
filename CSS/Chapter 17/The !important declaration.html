@@ -1,0 +1,34 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>  
+Home Page
+</title>  
+<style>    
+    #mydiv {
+        font-weight: bold !important; /* This property won't be overridden by the rule below */
+        color: hsl(320, 10%, 6%);
+       }
+
+    #outerdiv #mydiv {
+        font-weight: normal; /* #mydiv font-weight won't be set to normal even if it has a highe specificity because of the !important declaration above */
+        color: rgb(217, 14, 14);
+
+       }
+</style>  
+</head>  
+<body> 
+    <div id="mydiv">
+        <div style="background-color: rgb(145, 220, 238)">
+        Some <br />
+        data <br />
+        to make<br />
+        a height <br />
+       </div>
+        <div id="outerdiv" id="mydiv" style="background-color: yellow">
+        Fewer <br />
+        lines <br />
+       </div>
+       </div>
+</body>  
+</html>  
