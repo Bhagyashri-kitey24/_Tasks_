@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" media="min-width: 600px" href="example.css" />  <!--Use on link tag -->
+    <title>Home page</title>
+    <style>
+        .box{
+            font-size: 22px;
+            text-align: center;
+            background-color: rgb(65, 242, 239);
+            color: blue;
+            display: none;
+        }
+        @media(max-width:200px){
+            #box1{
+                display: block;
+                color: rgb(14, 13, 13);
+                background-color: aquamarine;
+                font-size: 100%;
+
+            }
+        }
+        @media(min-width:200px) and (max-width:400px) {
+            #box2{
+                display: block;
+                color: azure;
+                background-color: blueviolet;
+                font-size: 120%;
+
+            }
+        }
+        @media(min-width:400px) and (max-width:550px) {
+            #box3{
+                display: block;
+                background-color: rgb(234, 82, 234);
+                font-size: 150%;
+
+            }
+        }
+        @media only screen and (min-width:550px) and (-webkit-min-device-pixel-ratio: 1){
+            #box4{
+                display: block;
+                font-size: 200%;
+                background-color: rgb(221, 249, 155);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">This is phone </div>
+    <div class="box" id="box2">This is tablet</div>
+    <div class="box" id="box3">This is laptop</div>
+    <div class="box" id="box4">This is computer</div>
+    <h1>hello</h1>
+    <p>This is paragraph</p>
+</body>
+</html>
