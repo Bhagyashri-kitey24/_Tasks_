@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>  
+Home Page
+</title>  
+<style>  
+     div {
+        direction: ltr; /* Default, text read read from left-to-right */
+       }
+       .ex {
+        direction: rtl; /* text read from right-to-left */
+       }
+       .horizontal-tb {
+        writing-mode: horizontal-tb; /* Default, text read from left-to-right and top-to-bottom. */
+       }
+       .vertical-rtl {
+        writing-mode: vertical-rl; /* text read from right-to-left and top-to-bottom */
+       }
+       .vertical-ltr {
+        writing-mode: vertical-rl; /* text read from left-to-right and top to bottom */
+       }
+       
+</style>  
+</head>  
+<body>  
+    <div >Hello </div>
+    <div class=".ex">Hello</div>
+    <div class=".horizontal-tb">Hello </div>
+    <div class=".vertical-rtl">Hello </div>
+    <div class=".vertical-ltr ">Hello </div>
+</body>  
+</html>  
