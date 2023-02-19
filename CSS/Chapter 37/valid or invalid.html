@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valid/Invalids
+    </title>
+</head>
+<style>
+    /*Invalid - CSS bug */
+    /* //These are Invalids variable names
+        --123color: blue;
+        --#color: red;
+        --bg_color: yellow
+        --$width: 100px;
+        //Valid variable names
+        --color: red;
+        --bg-color: yellow
+        --width: 100px;
+        */ 
+
+    /* Valid */
+    .logo{
+    height: 200px;
+    --logo-url: url('duck.png');
+    background: var(--logo-url);
+    }
+
+</style>
+<body>
+    <div class="logo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe magni eum cumque, obcaecati eius consequatur id ipsam error vero, natus quaerat sit quos fugit unde nam voluptatibus odit blanditiis temporibus.</div>
+</body>
+</html>
+</html>
