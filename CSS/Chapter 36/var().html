@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var() function</title>
+<head>
+    <style>
+        :root{
+            --primary-color:red;
+            --btn-color:lightgreen;
+            --text-color:rgb(18, 3, 3);
+        }
+        #fun{
+            background-color: var(--primary-color);
+            height: 200px;
+            width: calc(100% - 200px);
+        }
+    </style>
+<body>
+    <div id="fun">Hello</div>
+</body>
+</html>
