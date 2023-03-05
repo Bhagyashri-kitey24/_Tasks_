@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Dom API()</title>
+    <script defer src="JavaScript.js"> // this dom file called by externally
+    </script>  
+
+</head>
+<body>
+<style>
+h1{
+    color:blue;
+}
+ p{
+    background-color: red;
+ }
+</style>
+ <h1 id="h1">hello...internal file</h1>
+ <script>
+    document.getElementById("h1").textContent = "Hello World !";
+ </script>
+
+<p id="paragraph"></p> <!--paragraph will called by external file -->
+
+</body>
+</html>
