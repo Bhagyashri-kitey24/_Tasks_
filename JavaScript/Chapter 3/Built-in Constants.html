@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built-in Constants </title>
+</head>
+<body>
+<script>
+    //null means empty value
+    var a = null; 
+    document.write(a+"<br>");
+    document.write(typeof(a)+"<br>");
+
+    //NaN Not a Number
+    a=10
+    b=2
+    c="ram"
+    d="riya"
+    document.write(a/b+"<br>"); //output: 5
+    document.write(a/d+"<br>"); //it is illegal num //output: NaN (Not a Number) 
+    
+    document.write(isNaN(b)); //output: false
+    document.write("<br>")
+    document.write(isNaN(c)); //output: true
+    document.write("<br>")
+
+    //Infinity
+    a=1/0
+    document.write(a); //output: Infinity
+    document.write("<br>")
+
+    //Operations that return NaN
+    value1="b" * 3
+    document.write(value1); //NaN
+    document.write("<br>")
+
+    value2=[1, 2, 3] * 2
+    document.write(value2);//NaN
+    document.write("<br>")
+
+    value3=[2] * [3]
+    document.write(value3); // 6
+    document.write("<br>")
+
+    //Math library functions that return NaN
+    val=Math.floor("a")
+    document.write(val); //NaN
+    document.write("<br>")
+
+    val1=Math.sqrt(-1)
+    document.write(val1); //NaN
+    document.write("<br>")
+
+    val2=Math.sqrt(16)
+    document.write(val2);//4
+
+</script>
+</body>
+</html>
