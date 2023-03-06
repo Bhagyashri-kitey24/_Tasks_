@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+<script>
+    var firstname="Bhagyashri"; //Defining a Variable
+    document.write("My first name is ",firstname); 
+
+    let middlename="pramod"
+    //let middlename="Pramodrao"------->can't declare same variale again
+        middlename="Pramodrao" // using let we can define a value to the variable, but can't declare same variale again
+    document.write("<br>My middle name  is ",middlename); 
+
+    const lastname="Kitey"
+    //const lastname="Kite"--->can't declare
+    //lastname="Kite"----->can't define 
+        document.write("<br>My last name  is ",lastname); 
+
+
+//Using a Variable
+    var a=5;
+    var b=a+5;
+    document.write("<br> Addition of a and  b:", b)
+
+//Types of Variables
+var myInteger = 12; // 32-bit number (from -2,147,483,648 to 2,147,483,647)
+document.write("<br>Integer value",myInteger)
+
+var myLong = 9310141419482; // 64-bit number (from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+document.write("<br>Long value", myLong)
+
+var myFloat = 5.5; // 32-bit floating-point number (decimal)
+document.write("<br>Float value", myFloat)
+
+var myDouble = 9310141419482.22; // 64-bit floating-point number
+document.write("<br>Double value" ,myDouble)
+
+var myBoolean = true; // 1-bit true/false (0 or 1)
+document.write("<br>Boolean value" ,myBoolean)
+
+var myBoolean2 = false;
+document.write("<br>Boolean2 value" ,myBoolean2)
+
+var myNotANumber = NaN;
+document.write("<br>NotANumber value", myNotANumber)
+
+var NaN_Example = 0/0; // NaN: Division by Zero is not possible
+document.write("<br>Integer value", myInteger)
+var notDefined; // undefined: we didn't define it to anything yet
+window.alert(aRandomVariable); // undefined
+var myNull = null; // null
+document.write("<br>Null value", myNull)
+// etc...
+
+var favoriteFruits = ["apple", "orange", "strawberry"];
+document.write( favoriteFruits[2] );
+
+myArray = ["zero", "one", "two"];
+window.alert(myArray[0]);
+
+</script>
+</body>
+</html>
